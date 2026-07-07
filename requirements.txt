@@ -1,0 +1,59 @@
+# ===========================
+# LangChain Core Framework
+# ===========================
+
+langchain                  # Main LangChain framework for building LLM applications
+langchain-core             # Core abstractions (Runnables, Prompts, Messages, etc.)
+langchain-community        # Community integrations (tools, loaders, vector stores)
+
+# ===========================
+# Google Gemini
+# ===========================
+
+langchain-google-genai     # LangChain integration for Google Gemini models
+google-generativeai        # Official Google Gemini Python SDK
+
+# ===========================
+# Agent Orchestration
+# ===========================
+
+langgraph                  # Build stateful AI agents and multi-agent workflows
+
+# ===========================
+# Web Search
+# ===========================
+
+tavily-python              # Official Tavily Search API client for real-time web search
+
+# ===========================
+# Web Scraping
+# ===========================
+
+requests                   # Send HTTP requests to websites
+beautifulsoup4             # Parse and extract information from HTML
+lxml                       # Fast HTML/XML parser used by BeautifulSoup
+
+# ===========================
+# Environment Variables
+# ===========================
+
+python-dotenv              # Load environment variables from a .env file
+
+# ===========================
+# Data Validation
+# ===========================
+
+pydantic                   # Data validation and structured models (used by LangChain)
+
+# ===========================
+# Optional Research Tools
+# ===========================
+
+duckduckgo-search          # Search the web using DuckDuckGo (optional fallback)
+wikipedia                  # Access Wikipedia articles programmatically
+
+# Rich
+rich                        # Create beautiful terminal output (colors, tables, progress bars, syntax highlighting, pretty tracebacks, and formatted logs)
+
+# for ui
+streamlit
